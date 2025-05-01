@@ -2,35 +2,37 @@
 For the Analysis and model prediction I have used this Dataset
 https://drive.google.com/file/d/1Ybgvs_UMaC6400mNGgGVqIuGSMXa-Tw_/view
 
-##Project Name. Project Valuation Analysis 
+## Project Name. Project Valuation Analysis 
 
-#2.1. Dataset Overview
+# 2.1. Dataset Overview
 •	Source: unicorns till sep 2022.csv
 •	Size: Contains data on various unicorn companies.
+
 Key Features:
 •	company: Name of the company
 •	valuation_($b): Valuation in billions
 •	country: Country of the company
 •	date_joined: Date when the company became a unicorn
 
-#2.2. Data Cleaning and Preprocessing
+# 2.2. Data Cleaning and Preprocessing
 •	Renamed columns for consistency.
 •	Converted valuation_($b) to float after removing the dollar sign.
 •	Extracted year and month from the date_joined column.
-2.3. Exploratory Data Analysis (EDA)
+
+# 2.3. Exploratory Data Analysis (EDA)
 •	Visualized the distribution of company valuations.
 •	Identified top companies by valuation and plotted a bar chart.
 •	Analyzed the distribution of unicorns by country using a pie chart.
 •	Tabular Analysis: A detailed table was created to summarize the count of companies by country, year, month, and industry.
 
-#2.4. Model Development
+# 2.4. Model Development
 •	Features and Target Variable:
 •	Features: All columns except valuation_($b) and company
 •	Target: valuation_($b)	
 •	Model Selection: Linear Regression and Random Forest Regressor were used.
 •	Data Preprocessing: Implemented a pipeline for handling missing values, scaling, and encoding categorical features.
 
-#2.5. Results
+# 2.5. Results
 •	Evaluated both models using MSE and R².
 •	Linear Regression:
 •	MSE for Linear Regression: 28.17
