@@ -9,7 +9,8 @@ https://drive.google.com/file/d/1Ybgvs_UMaC6400mNGgGVqIuGSMXa-Tw_/view
 •	Size: Contains data on various unicorn companies.
 
 Key Features:
-•	company: Name of the company\n
+•	company: Name of the company
+
 •	valuation_($b): Valuation in billions
 •	country: Country of the company
 •	date_joined: Date when the company became a unicorn
